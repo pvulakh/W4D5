@@ -52,7 +52,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'better_errors'
-  gem 'binding_of_calling'
+  gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'annotate'
 end
@@ -64,7 +64,6 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   gem 'faker'
-  gem 'capybara'
   gem 'guard-rspec'
   gem 'launchy'
 end
